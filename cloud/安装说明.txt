@@ -1,0 +1,15 @@
+程序介绍：仿永硕网盘/海诚网盘/E盘源码 支持二级域名直接访问
+
+程序介绍：海诚网盘（高仿永硕 E盘）二次开发于 PHPDisk 网络硬盘 是一款基于PHP+MySQL的强大的网络硬盘管理系统，您可以将一些资料通过网络上传到您的系统中，以一种图形界面的方式，方便的管理您每一个文件。方便的异地办公，资料的保存将会是您的首选。
+
+程序说明：此源码为高仿永硕网盘源码，不支持引擎脚本装饰，单独调用脚本装饰是可以的，所实现的功能和永硕网盘一样，希望我们的源码和永硕官网的一模一样的，就不要购买了！
+
+安装环境：VPS+PHP+MYSQL5.2
+
+程序安装：http://您的域名.com/install/index.php
+
+缓存目录：路径 /system/cache 
+
+允许上传文件类型(后台可自行修改): jpg,jpeg,bmp,png,gif,zip,rar,txt,doc,dll,db,htm,wav,fla,wmv,swf,mp3,mp4,rmvb,mov,avi,exe,torrent,ani,cur,ico,js,css,chm,ppt,pdf,psd,xls,xml,xsl
+
+小高教学网www.12580sky.com
