@@ -35,7 +35,7 @@
     <script type="text/javascript"
         src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-y/izitoast/1.4.0/js/iziToast.min.js">
     </script>
-    <!-- Search Box -->
+    <!-- 搜索 Box -->
     <!--
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -88,61 +88,7 @@
         <!-- 主体内容 -->
         <main id="main" class="main">
             <!-- 搜索框 -->
-            <div class="close-btn">
-                <span class="fas fa-times"></span>
-            </div>
-            <div class="search-btn">
-                <span class="fas fa-search"></span>
-            </div>
-            <div class="search-data">
-                <input type="text" id="inp" required/>
-                <div class="line"></div>
-                <label>Type to search...</label>
-                <span class="fas fa-search" id="btn"></span>
-            </div>
-
-            <script>
-                var oInp = document.getElementById('inp');
-                var oBtn = document.getElementById('btn');
             
-                oBtn.onclick = function () {
-                    Search();
-                }
-            
-                document.onkeydown = function () {
-                    if (event.keyCode == 13) {
-                        Search();
-                    }
-                }
-            
-                function Search() {
-                    var url = 'https://cn.bing.com/search?q=' + oInp.value;
-                    window.open(url,'_self');
-                }
-            </script>
-
-            <script>
-                $(".search-btn").click(function(){
-                    $(this).css("display","none");
-                    $(".search-data").fadeIn(500);
-                    $(".close-btn").fadeIn(500);
-                    $(".search-data .line").addClass("active");
-                    setTimeout(function(){
-                        $("input").focus();
-                        $(".search-data label").fadeIn(500);
-                        $(".search-data span").fadeIn(500);
-                    }, 800);
-                });
-                $(".close-btn").click(function(){
-                    $(".search-btn").fadeIn(800);
-                    $(".search-data").fadeOut(500);
-                    $(".close-btn").fadeOut(500);
-                    $(".search-data .line").removeClass("active");
-                    $("input").val("");
-                    $(".search-data label").fadeOut(500);
-                    $(".search-data span").fadeOut(500);
-                });
-            </script>
             <div class="container" id="container">
                 <div class="row" id="row">
                     <div class="col left">
@@ -378,7 +324,7 @@
                                 <div class="link-card cards">
                                     <span class="link-name">CFox</span>
                                 </div>
-                            </a>
+			    </a>
                         </div>
                         <div class="col 2">
                             <a href="https://tool.oschina.net/highlight" target="_blank">
